@@ -1,0 +1,68 @@
+
+#create_post_div{
+    background-color: white;
+    border-radius: 9px;
+
+}
+
+#create_post_div #create_icon{
+    background-color: rgba(0, 187, 240, 0.14);
+    padding: 0.6em 0.7em 1em;
+    border-radius: 100%;
+
+}
+#create_post_div .create_post_row{
+    cursor: pointer;
+    border-radius: 9px;
+}
+#create_post_div .create_post_row:hover{
+    background-color: rgba(1,1,1,0.01);
+
+}
+#create_post_div .title{
+    font-size: 1.1em;
+    font-weight: 600;
+
+}
+#create_post_div .note{
+    font-size: 0.9em;
+    color: #5e6060;
+
+}
+#create_post_div{
+
+
+}
+
+#create_post_div{
+
+
+}
+#create_post_div{
+
+
+}
+#create_post_div{
+
+
+}
+#create_post_div{
+
+
+}
+#create_post_div{
+
+
+}
+
+@media (max-width: 487px) {
+    #create_post_div .title{
+        font-size: 0.9em;
+
+    }
+    #create_post_div .note{
+        font-size: 0.7em;
+
+    }
+}
+

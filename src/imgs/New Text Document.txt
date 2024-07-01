@@ -1,0 +1,2 @@
+<ErrorDiv img={error} imgW={300} imgH={220} button={true} error="Un erreur est survenue" describtion="Nous rencontrons des problèmes lors du chargement des données"/>
+<ErrorDiv img={nodata} imgW={250} imgH={220} button={false} error="Données introuvables" describtion="Aucun utilisateur trouvé dans la base de données, essayez d'en ajouter un"/>

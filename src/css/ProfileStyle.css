@@ -1,0 +1,112 @@
+#profileDiv input:after,input:focus-within,input:focus{
+
+    outline: none;
+
+}
+
+#profileDiv input{
+
+    border-width: 0 0 2px 0;
+    border-bottom-color : #106765;
+    background-color: #16a8a5;
+
+}
+#profileDiv input:disabled{
+  color: black;
+    cursor: auto;
+    border: 0;
+
+}
+
+#profileDiv .edit_btn{
+
+
+    background-color: transparent;
+    border: 2px solid #106765;
+    padding: 0.5em;
+    border-radius: 45px;
+    color: #106765;
+    font-weight: 550;
+    transition: 0.5s;
+}
+
+#profileDiv .edit_btn:hover{
+
+    background-color: #106765;
+    border: 2px solid #106765;
+    padding: 0.5em;
+    border-radius: 45px;
+    color: white;
+    font-weight: 550;
+}
+
+#imgEdit{
+    cursor: pointer;
+}
+
+#imgEdit .change{
+    cursor: pointer;
+    display: inline-block;
+    background-color: #106765;
+    color: white;
+    padding: 0.6em 1.5em;
+    margin-top: .2rem;
+    border-radius: 6px 6px 45px 45px;
+    font-size: 0.7em;
+    filter: brightness(1.1);
+
+}
+#imgEdit:hover .change{
+    filter: brightness(1);
+}
+/*General profile*/
+
+#profile_general {
+    background-color: white;
+    border-radius: 9px;
+}
+#profile_general #role{
+    font-size: 0.9em;
+    padding: 2px 10px;
+    background-color: #e8e8e8;
+    border-radius: 4px;
+    font-weight: 600;
+
+}
+#profile_general .name{
+    font-weight: bold;
+    font-size: 2em;
+}
+#profile_general .pub{
+    font-size: 1em;
+
+}
+#profile_general .contact_btn{
+
+    font-size: 0.9em;
+    background-color: transparent;
+    border: 2px solid #106765;
+    padding: 0.5em;
+    border-radius: 45px;
+    color: #106765;
+    font-weight: 550;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+}
+#profile_general .contact_btn:hover{
+
+    background-color: #106765;
+    border: 2px solid #106765;
+    padding: 0.5em;
+    border-radius: 45px;
+    color: white;
+    font-weight: 550;
+}
+#profile_general .contact_btn i{
+    font-size: 1.4em !important;
+    bottom: 5px;
+}
+#profile_general .icon_send{
+    margin-top: 0.2em;
+}

@@ -1,0 +1,42 @@
+/*AdminPage.js*/
+#users:hover{
+    background-color: rgba(0,0,0,0.03)!important;
+}
+
+.staticbar:hover{
+    opacity: 1;
+    transform: scale(1.03);
+    height: border-box;
+}
+
+
+
+@media (min-width: 1300px) {
+    #statistics{
+        position:fixed;
+        z-index: 18;
+        right:0;
+    }
+    
+}
+
+@media (max-width: 569px) {
+    #users .info{
+        font-size: 0.8em;
+    }
+    .BTN{
+        font-size: 0.8em;
+    }
+
+}
+
+#users #the_image{
+    cursor: pointer;
+}
+#users #the_image:hover{
+    transform: scale(180%) translateX(22%);
+    padding-top: 3em !important;
+    padding-bottom: 2.7em !important;
+    padding-right: 3.5em !important;
+
+}

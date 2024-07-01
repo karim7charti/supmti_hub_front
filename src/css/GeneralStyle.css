@@ -1,0 +1,119 @@
+
+.PrivateTabIndicator-colorPrimary-6 {
+    background-color:#106765 !important;
+}
+.PrivateTabIndicator-root-5 {
+
+    height: 3px !important;
+    border-radius: 45px !important;
+
+}
+.MuiCheckbox-colorSecondary.Mui-checked {
+    color: #106765 !important;
+}
+.MuiFormControlLabel-label {
+    font-size: 0.7em !important;
+
+    font-weight: 600 !important;
+
+}
+
+
+
+@media (max-width: 500px) {
+    .MuiFormControlLabel-label {
+        font-size: 0.5em !important;
+
+
+
+    }
+    .MuiSvgIcon-root {
+        fill: currentColor;
+
+        font-size: 0.7em;
+
+    }
+}
+
+/*
+.MuiTabs-scrollable {
+    width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+
+.MuiTab-textColorInherit {
+    flex-grow: 1 !important;
+    max-width: none !important;
+    flex-basis: 0 !important;
+    flex-shrink: 1 !important;
+}*/
+
+@media (min-width: 600px)
+{
+.MuiTab-root {
+    min-width: 72px !important;
+}
+}
+
+/*GeneralProfileNavigator*/
+
+#GeneralNavigator{
+    background-color: transparent !important;
+    padding: 0 !important;
+}
+#GeneralNavigator .MuiAppBar-colorTransparent {
+
+    background-color: white !important;
+    border-radius: 9px 9px 6px 6px;
+    border-bottom: 0 !important;
+}
+#GeneralNavigator .PrivateTabIndicator-root-7 {
+
+}
+#GeneralNavigator .PrivateTabIndicator-colorPrimary-8 {
+    background-color: #106765 !important;
+}
+#GeneralNavigator .MuiBox-root{
+    padding-right: 0!important;
+    padding-left: 0!important;
+    padding-top: 0.4em!important;
+}
+
+/*alerts*/
+
+.MuiCircularProgress-colorPrimary {
+    color: #106765 !important;
+}
+
+
+/*Custom Scroll Bar*/
+.custom-scroll::-webkit-scrollbar-track
+{
+    border: 0 !important;
+    border-radius: 10px;
+    background-color: transparent;
+
+}
+
+.custom-scroll::-webkit-scrollbar
+{
+    width: 7px;
+    background-color: #ffffff;
+
+
+}
+
+.custom-scroll::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+
+    background-color: lightgray;
+    cursor: pointer;
+}
+.custom-scroll::-webkit-scrollbar-thumb:hover
+{
+    border-radius: 10px;
+
+    background-color: gray;
+}

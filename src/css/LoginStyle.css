@@ -1,0 +1,95 @@
+#loginRow {
+        align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#loginDiv {
+    background-color: #FFF;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+    border-radius: 9px;
+}
+
+
+#logo{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#loginDiv .logodiv{
+    align-items: center;
+    justify-content: center;
+
+}
+#loginDiv .title{
+    font-weight: 480;
+    font-size: 1.3em;
+    color: black;
+}
+
+#loginDiv input{
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    width: 100%;
+    padding: 0.8em;
+    font-size: 0.9em;
+}
+
+#loginDiv #btnLogin{
+    float: right;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    border: 0;
+    border-radius: 4px;
+    background-color: #106765;
+    color: white;
+    margin-bottom: 3em;
+    font-size: 0.9em;
+}
+#loginDiv #btnLogin:hover{
+    background-color: #16a8a5;
+
+}
+#loginDiv input:focus{
+    outline: #16a8a5;
+    border: 1px solid #16a8a5;
+}
+
+
+#loginDiv .p{
+    text-align: justify;
+    font-size: 0.8em;
+}
+
+#loginDiv .passwordForget{
+    font-size: 0.7em;
+    text-align: left;
+    color: #106765;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#loginDiv .passwordForget:hover{
+    color: #16a8a5;
+
+}
+
+#loginDiv .error{
+    color: red;
+    font-size: 0.7em;
+
+
+}
+
+@media (max-width: 1077px) {
+    #loginDiv .register{
+        font-size: 0.8em;
+    }
+
+    #loginDiv .passwordForget{
+        font-size: 0.6em;
+    }
+}
